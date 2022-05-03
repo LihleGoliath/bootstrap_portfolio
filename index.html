@@ -4,50 +4,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-       <title>Lihle Goliath's bootstrap portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">  
+    <title>Lihle Goliath's bootstrap portfolio</title>
 </head>
-<body>
-<div class="container  position-absolute top-50 start-0 translate-middle-y ">
-    <ul class="nav nav-tabs d-flex flex-column justifiy-content-around">
+<body class="bg-dark $enble-smooth-scroll">
+<div class="container  position-fixed top-50 start-0 translate-middle-y ">
+    <ul class="nav nav-tab d-flex flex-column justifiy-content-around">
         
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link fs-2" href="#Home"><i class="bi bi-house"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link fs-2" href="#About"><i class="bi bi-person"></i></a>
         </li>
          <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link fs-2" href="#Skills"><i class="bi bi-list-task"></i></a>
           </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link fs-2" href="#Resume"><i class="bi bi-clipboard"></i></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a class="nav-link fs-2" href="#Projects"><i class="bi bi-back"></i></a>
           </li>
            <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link fs-2" href="#Testmonials"><i class="bi bi-people"></i></a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
+            <a class="nav-link fs-2" href="#Contacts"><i class="bi bi-person-badge"></i></a>
           </li>
       </ul>
     </div>
-    <section id="Home">
-<div class="container">
-    <img src="./pics/Copy of Lihle (1).JPG" alt="person" class="img-fluid img-thumbnail  rounded-circle" style="width: 300px; height: 350px;">
-    <div class="head">
+    <section  id="Home" >
+<div class="container d-flex justifiy-content-center align-items-center " style="height: 100vh; background-image: url(./pics/Copy\ of\ Lihle\ \(1\).JPG);" >
+   <div class=" d-flex  gap-5 ">
+    <div class="head me-5 ">
         <h1>Lihle Goliath</h1>
         <h2>The developer</h2>
     </div>
+    <img src="./pics/remove.png" alt="person" class=" ms-5  img-fluid border-5 border-radius " style="width: 500px; height: 550px;">
 
 </div>
+</div>
     </section>
+<section id="About">
+    <h2 class="text-center text-white">About </h2>
+    <div class="container bg-light py-5"  style="height: max-content;">
+        <div class="row">
+        <img src="./pics/Copy of Lihle (1).JPG" alt="person" class="me-5  img-fluid  rounded-circle col-md-5" style="width: 300px; height: 350px;">
+<div class="col">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+        . Vitae ullam iste eos, nisi expedita exercitationem?</p>
+        <table class="table table-dark table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Lihle</td>
+                <td>Goliath</td>
+                <td>lihlegoliath2@gmail.com</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Joshua</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Romeo</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Voluptates minima voluptate perferendis iure essesit praesentium optio, officia
+              , placeat ratione ex deleniti ullam perspiciatis non.</p>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Voluptates minima voluptate perferendis iure essesit praesentium optio, officia
+                , placeat ratione ex deleniti ullam perspiciatis non.</p>
+        </div>
+</div>
+ </div>
+    </div>
+</section>
+<section id="Skills">
+    <h2 class="text-center text-white">Skills </h2>
+    <div class="container bg-light"  style="height: 100vh;">
+      <div class="progress py-2 my-5">
+        <h4>Html</h4>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+      </div>
+      <div class="progress">
+        <h4>CSS</h4>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+      </div>
+      <div class="progress">
+        <h4>Javascript</h4>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+      </div>
+      <div class="progress">
+        <h4>Vue.js</h4>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+      </div>      
+       <div class="progress">
+        <h4>Node.js</h4>
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
+      </div>      
+    </div>
+</section>
+ <section id="Resume">
+    <h2 class="text-center text-white">Resume </h2>
+     <div class="container bg-light"  style="height: 100vh;">
+     </div>
+    </section>
+ <section id="Projects">
+    <h2 class="text-center text-white">Projects </h2>
+     <div class="container bg-light"  style="height: 100vh;">
+     </div>
+    </section>
+    <section id="Testimonials">
+        <h2 class="text-center text-white">Testimonials </h2>
+        <div class="container bg-light"  style="height: 100vh;">
+        </div>
+       </section>
+       <section id="Contacts">
+        <h2 class="text-center text-white">Contacts </h2>
+        <div class="container bg-light"  style="height: 100vh;">
+        </div>
+    <footer id="footer">
+<p class="lead text-white text-center">Copy right of LJRG WEBsites</p>
 
-
-
-
-
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
